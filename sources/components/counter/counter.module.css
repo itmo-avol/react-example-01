@@ -1,0 +1,29 @@
+.incrementButton
+{
+	display: inline-block;
+	
+	box-sizing: content-box;
+	padding: 0.1em 1em;
+	margin: 0;
+	
+	appearance: none;
+	
+	background: hsl(0, 50%, 50%);
+	
+	border: none;
+}
+
+.incrementButton:hover
+{
+	background-color: hsl(0, 70%, 50%);
+}
+
+.counter
+{
+	background: lightgray;
+}
+
+.counter_changed output
+{
+	color: red;
+}

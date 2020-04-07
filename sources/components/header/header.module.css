@@ -1,0 +1,9 @@
+.heading
+{
+	padding-left: 16px;
+	margin: 0 0 2em;
+	
+	font-weight: normal;
+	
+	background: url("images/line.svg") left center no-repeat;
+}
