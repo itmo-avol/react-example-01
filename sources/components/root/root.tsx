@@ -1,11 +1,12 @@
 import React, { FC } from 'react';
 import { Header } from '../header/header';
 import { Counter } from '../counter/counter';
-import lineImage from './images/line.svg';
 
 export type RootProps = {
 	[key: string]: never;
 };
+
+const lineImage = new URL( './images/line.svg', import.meta.url ).href;
 
 export const Root: FC<RootProps> = () =>
 {
