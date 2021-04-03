@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import type { FC } from 'react';
 import Styles from './header.module.css';
 
 export type HeaderProps = {

@@ -1,4 +1,5 @@
-import React, { FC, useState, useCallback } from 'react';
+import type { FC } from 'react';
+import { useState, useCallback } from 'react';
 import Styles from './counter.module.css';
 
 export type CounterProps = {

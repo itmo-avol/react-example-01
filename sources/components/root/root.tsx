@@ -1,4 +1,4 @@
-import React, { FC } from 'react';
+import type { FC } from 'react';
 import { Header } from '../header/header';
 import { Counter } from '../counter/counter';
 
@@ -19,7 +19,7 @@ export const Root: FC<RootProps> = () =>
 				Hello!
 				<img src={lineImage} alt="" />
 			</p>
-			{<Counter initialValue={1} />}
+			<Counter initialValue={1} />
 		</>
-	)
+	);
 };
